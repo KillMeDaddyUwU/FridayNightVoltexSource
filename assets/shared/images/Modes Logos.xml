@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Modes Logos.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mirrorMode instance 10000" x="95" y="0" width="95" height="91" pivotX="0" pivotY="0"/>
+	<SubTexture name="noFail instance 10000" x="0" y="0" width="95" height="91" pivotX="0" pivotY="0"/>
+	<SubTexture name="noMiss instance 10000" x="0" y="91" width="95" height="91" pivotX="0" pivotY="0"/>
+</TextureAtlas>

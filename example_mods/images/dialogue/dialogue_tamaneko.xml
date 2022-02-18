@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dialogue_tamaneko.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tamaneko_dialogue_angry0000" x="0" y="0" width="293" height="323" frameX="0" frameY="0" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_angry0001" x="0" y="0" width="293" height="323" frameX="0" frameY="0" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_angry0002" x="0" y="0" width="293" height="323" frameX="0" frameY="0" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_angry0003" x="295" y="0" width="293" height="322" frameX="-5" frameY="-1" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_angry0004" x="295" y="0" width="293" height="322" frameX="-5" frameY="-1" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_angry0005" x="295" y="0" width="293" height="322" frameX="-5" frameY="-1" frameWidth="298" frameHeight="323"/>
+	<SubTexture name="Tamaneko_dialogue_normal0000" x="590" y="0" width="262" height="321" frameX="-6" frameY="0" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_normal0001" x="590" y="0" width="262" height="321" frameX="-6" frameY="0" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_normal0002" x="590" y="0" width="262" height="321" frameX="-6" frameY="0" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_normal0003" x="0" y="325" width="264" height="302" frameX="0" frameY="-19" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_normal0004" x="0" y="325" width="264" height="302" frameX="0" frameY="-19" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_normal0005" x="0" y="325" width="264" height="302" frameX="0" frameY="-19" frameWidth="268" frameHeight="321"/>
+	<SubTexture name="Tamaneko_dialogue_ready0000" x="266" y="325" width="312" height="328"/>
+	<SubTexture name="Tamaneko_dialogue_ready0001" x="266" y="325" width="312" height="328"/>
+	<SubTexture name="Tamaneko_dialogue_ready0002" x="266" y="325" width="312" height="328"/>
+	<SubTexture name="Tamaneko_dialogue_ready0003" x="580" y="325" width="282" height="322" frameX="-18" frameY="-6" frameWidth="312" frameHeight="328"/>
+	<SubTexture name="Tamaneko_dialogue_ready0004" x="580" y="325" width="282" height="322" frameX="-18" frameY="-6" frameWidth="312" frameHeight="328"/>
+	<SubTexture name="Tamaneko_dialogue_ready0005" x="580" y="325" width="282" height="322" frameX="-18" frameY="-6" frameWidth="312" frameHeight="328"/>
+</TextureAtlas>

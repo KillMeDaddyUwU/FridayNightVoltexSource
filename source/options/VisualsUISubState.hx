@@ -1,0 +1,162 @@
+package options;
+
+#if desktop
+import Discord.DiscordClient;
+#end
+import flash.text.TextField;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.addons.display.FlxGridOverlay;
+import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.math.FlxMath;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
+import lime.utils.Assets;
+import flixel.FlxSubState;
+import flash.text.TextField;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.util.FlxSave;
+import haxe.Json;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.input.keyboard.FlxKey;
+import flixel.graphics.FlxGraphic;
+import Controls;
+import openfl.Lib;
+
+using StringTools;
+
+class VisualsUISubState extends BaseOptionsMenu
+{
+	public function new()
+	{
+		title = 'Visuals and UI';
+		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
+
+		var option:Option = new Option('Note Splashes',
+			"If unchecked, hitting \"Sick!\" notes won't show particles.",
+			'noteSplashes',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Hide HUD',
+			'If checked, hides most HUD elements.',
+			'hideHud',
+			'bool',
+			false);
+		addOption(option);
+
+		var option:Option = new Option('Hide Enemy Arrows:',
+			"Where should the enemy arrows be hidden",
+			'noEnemyArrows',
+			'string',
+			'On mid scroll',
+			[
+				'On mid scroll',
+				'On side scroll',
+				'Neither',
+				'Both']);
+			addOption(option);
+		
+		var option:Option = new Option('Show Time Bar',
+			"Display the Time Bar?",
+			'timeBarEnabled',
+			'bool',
+			false);
+		addOption(option);
+
+		var option:Option = new Option('Flashing Lights',
+			"Uncheck this if you're sensitive to flashing lights!",
+			'flashing',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Camera Zooms',
+			"If unchecked, the camera won't zoom in on a beat hit.",
+			'camZooms',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Camera Movement',
+			"If checked, camera will move based on boyfriend's animation.",
+			'cameraMovement',
+			'bool',
+			false);
+		addOption(option);
+
+		var option:Option = new Option('Score Text Zoom on Hit',
+			"If unchecked, disables the Score text zooming\neverytime you hit a note.",
+			'scoreZoom',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Millisecond Popup',
+			"If checked, shows your hits millisecond timing in a popup.",
+			'showTiming',
+			'bool',
+			false);
+		addOption(option);
+
+		var option:Option = new Option('Better UI Layout',
+			"If checked, changes the layout to be more like other\nrhythm games.",
+			'changeLayout',
+			'bool',
+			false);
+		addOption(option);
+
+		var option:Option = new Option('Show Icons',
+			"If checked, shows the icons",
+			'showIcons',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Health Bar Opacity',
+			'How much transparent should the health bar and icons be.',
+			'healthBarAlpha',
+			'percent',
+			1);
+		option.scrollSpeed = 1.6;
+		option.minValue = 0.0;
+		option.maxValue = 1;
+		option.changeValue = 0.1;
+		option.decimals = 1;
+		addOption(option);
+
+		var option:Option = new Option('Lane Underlay', "If checked, adds an underlay for better reading", 'bgShadow', 'bool', false);
+		addOption(option);
+		
+		var option:Option = new Option('Lane Underlay Opacity', 'Changes the opacity of the underlay', 'bgOpacity', 'percent', .5);
+		option.scrollSpeed = 1.5;
+		option.minValue = 0;
+		option.changeValue = 0.1;
+		option.maxValue = 1;
+		option.decimals = 1;
+		addOption(option);
+		
+		#if !mobile
+		var option:Option = new Option('FPS Counter',
+			'If unchecked, hides FPS Counter.',
+			'showFPS',
+			'bool',
+			true);
+		addOption(option);
+		option.onChange = onChangeFPSCounter;
+		#end
+
+		super();
+	}
+
+	#if !mobile
+	function onChangeFPSCounter()
+	{
+		trace("fps changed lol!");
+	}
+	#end
+}

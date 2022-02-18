@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Beep!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "tamaneko",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Nya..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "darktamaneko",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nya a a a a "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Skibidi Bop Mm Dada"
+		}
+	]
+}

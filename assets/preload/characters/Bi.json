@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				-100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Bi_IdleDance"
+		},
+		{
+			"offsets": [
+				75,
+				-125
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "bi_pose_backward"
+		},
+		{
+			"offsets": [
+				-200,
+				-100
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "bi_pose_forward"
+		},
+		{
+			"offsets": [
+				0,
+				-225
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "bi_pose_downward"
+		},
+		{
+			"offsets": [
+				-25,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "bi_pose_upward"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bi",
+	"position": [
+		-350,
+		-150
+	],
+	"healthicon": "bi",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 10,
+	"scale": 1
+}

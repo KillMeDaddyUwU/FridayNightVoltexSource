@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Wow, you are really talented!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "tamaneko",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Encore"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "tamaneko",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Encore"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "tamaneko",
+			"boxState": "normal",
+			"expression": "Tamaneko_dialogue_normal",
+			"text": "ENCORE!!!"
+		},
+		{
+			"expression": "excited",
+			"text": "I think you are ready for the FIN4LE!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		},
+		{
+			"expression": "talk",
+			"text": "I'll be waiting for you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		}
+	]
+}

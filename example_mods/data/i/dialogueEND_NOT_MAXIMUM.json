@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "That was really fun. ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		},
+		{
+			"expression": "talk",
+			"text": "I have something for you if you're up for the extra challenge. ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		},
+		{
+			"expression": "talk",
+			"text": "I'll be waiting for you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "rasis"
+		}
+	]
+}

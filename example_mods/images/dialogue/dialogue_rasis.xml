@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dialogue_rasis.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Rasis_dialogue_normal0000" x="0" y="0" width="387" height="746" frameX="-3" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_normal0001" x="0" y="0" width="387" height="746" frameX="-3" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_normal0002" x="0" y="0" width="387" height="746" frameX="-3" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_normal0003" x="389" y="0" width="384" height="746" frameX="0" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_normal0004" x="389" y="0" width="384" height="746" frameX="0" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_normal0005" x="389" y="0" width="384" height="746" frameX="0" frameY="0" frameWidth="390" frameHeight="746"/>
+	<SubTexture name="Rasis_dialogue_surprised0000" x="775" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0001" x="775" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0002" x="775" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0003" x="775" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0004" x="1248" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0005" x="1248" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0006" x="1248" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0007" x="1248" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0008" x="1720" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0009" x="1720" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0010" x="1720" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0011" x="1720" y="0" width="471" height="723" frameX="0" frameY="0" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0012" x="2193" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0013" x="2193" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0014" x="2193" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="Rasis_dialogue_surprised0015" x="2193" y="0" width="470" height="720" frameX="0" frameY="-4" frameWidth="471" frameHeight="724"/>
+	<SubTexture name="rasis_dialogue_ready0000" x="2665" y="0" width="365" height="733" frameX="-1" frameY="0" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0001" x="2665" y="0" width="365" height="733" frameX="-1" frameY="0" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0002" x="2665" y="0" width="365" height="733" frameX="-1" frameY="0" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0003" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0004" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0005" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0006" x="3411" y="0" width="368" height="723" frameX="-2" frameY="-10" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0007" x="3411" y="0" width="368" height="723" frameX="-2" frameY="-10" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0008" x="3411" y="0" width="368" height="723" frameX="-2" frameY="-10" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0009" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0010" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+	<SubTexture name="rasis_dialogue_ready0011" x="3032" y="0" width="377" height="727" frameX="0" frameY="-6" frameWidth="377" frameHeight="733"/>
+</TextureAtlas>

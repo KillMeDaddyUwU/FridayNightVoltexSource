@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		80,
+		-110
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				-1,
+				0
+			],
+			"loop_name": "Rasis_dialogue_normal",
+			"idle_name": "Rasis_dialogue_normal0005"
+		},
+		{
+			"loop_offsets": [
+				5,
+				0
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				6,
+				1
+			],
+			"loop_name": "rasis_dialogue_ready",
+			"idle_name": "rasis_dialogue_ready0011"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "BF PISSED LOOP",
+			"idle_name": "BF PISSED0"
+		},
+		{
+			"loop_offsets": [
+				-4,
+				0
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				-6,
+				1
+			],
+			"loop_name": "Rasis_dialogue_surprised",
+			"idle_name": "Rasis_dialogue_surprised0015"
+		}
+	],
+	"image": "dialogue_rasis"
+}

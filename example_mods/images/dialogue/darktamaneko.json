@@ -1,0 +1,76 @@
+{
+	"position": [
+		180,
+		130
+	],
+	"dialogue_pos": "left",
+	"scale": 1.65,
+	"image": "dialogue_darktamaneko",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-11
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "Tamaneko_dialogue_normal0001",
+			"loop_name": "Tamaneko_dialogue_normal"
+		},
+		{
+			"idle_offsets": [
+				4,
+				-8
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				5,
+				0
+			],
+			"idle_name": "BF EXCITED0",
+			"loop_name": "BF EXCITED LOOP"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Tamaneko_dialogue_angry0001",
+			"loop_name": "Tamaneko_dialogue_angry"
+		},
+		{
+			"idle_offsets": [
+				-6,
+				-11
+			],
+			"anim": "shocked",
+			"loop_offsets": [
+				-4,
+				0
+			],
+			"idle_name": "BF SHOCK0",
+			"loop_name": "BF SHOCK LOOP"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Tamaneko_dialogue_normal",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Tamaneko_dialogue_normal",
+			"idle_name": "Tamaneko_dialogue_normal0001"
+		}
+	]
+}
